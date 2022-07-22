@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "CatLuvrHass"
+title                    : "1995"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "itsHass"
@@ -26,7 +26,7 @@ url                      : "https://catluvrhass.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : CatLuvrHass/catluvrhass.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/heroimage.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -109,26 +109,20 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Dublin, Ireland"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:albujasimhassan@gamil.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "mailto:albujasimhassan@gamil.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/itsHass__"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CatLuvrHass"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hassanajaj/"
 
 # Site Footer
 footer:
@@ -139,9 +133,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/CatLuvrHass"
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hassanajaj/"
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -288,3 +282,12 @@ defaults:
       comments: true
       share: true
       related: true
+  
+defaults:
+  # _pages
+  - scope:
+      path: "/projects/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
