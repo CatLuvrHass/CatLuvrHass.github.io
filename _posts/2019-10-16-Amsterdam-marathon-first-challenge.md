@@ -1,3 +1,9 @@
+---
+layout: posts
+title: AmsterdamTCS19
+date: 2019-10-16
+---
+
 2019, I was able to complete my first marathon in 5 hours and 15 minutes. I trained for 3+ months and was an incredibly growing experience. Where I learn the importance of preperation and planning ahead.
 
 It taught me much on sticking to the goal even if it feels out of reach. Walk if you need to, beleive in yourself and you will make it.
